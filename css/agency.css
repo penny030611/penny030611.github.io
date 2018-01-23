@@ -389,6 +389,9 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .portfolio_content .youtubeFrame {
   position: relative;
+  padding-bottom: 65.25%;
+  padding-top: 30px;
+  height: 0;
   overflow: hidden;
 }
 
@@ -404,19 +407,14 @@ header.masthead .intro-text .intro-heading {
   .portfolio-modal .modal-content h2 {
     font-size: 2em;
   }
-  .portfolio_content .youtubeFrame {
-    padding-bottom: 65.25%;
-    padding-top: 30px;
-    height: 0;
-  }
 }
 
 @media (min-width: 768px) {
   .portfolio_content .youtubeFrame {
-    width: 560px;
+    width: 700px;
     height: 315px;
     left: 50%;
-    margin-left: -280px;
+    margin-left: -350px;
   }
 }
 
