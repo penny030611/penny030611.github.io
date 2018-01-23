@@ -306,6 +306,7 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal {
   padding-right: 0px !important;
+  -webkit-overflow-scrolling: touch;
 }
 
 .portfolio-modal .modal-dialog {
